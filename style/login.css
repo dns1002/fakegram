@@ -42,13 +42,64 @@ body {
 }
 .group {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 370px;
+    width: 350px;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    height: 350px;
+}
+.inputs{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.inputs button{
+    width: 75%;
+    height: 32px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+}
+.inputs p{  
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 15px 0px;
+    color:rgb(145, 145, 145) ;
+}
+.inputs a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+    color: grey;
+}
+.inputs img{
+    height: 25px;
+}
+.inputs input{
+    width: 75%;
+    height: 35px;
+    background-color:rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    margin-bottom: 6px;
+    padding: 5px;
+    border:none;
+    border:1px solid rgb(206, 206, 206);
+}
+input::placeholder{
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
 }
 .group1 {
     margin-top: 5px;
@@ -57,7 +108,7 @@ body {
     align-items: center;
     flex-direction: row;
     background-color: white;
-    width: 100%;
+    width: 350px;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
@@ -122,11 +173,11 @@ body {
     background-size: cover;
 }
 .app-download:nth-child(1) {
-    background-image: url('apple.png');
+    background-image: url('/fakegram/assets/apple.png');
     border-radius: 4px;
 }
 .app-download:nth-child(2) {
-    background-image: url('google.png');
+    background-image: url('/fakegram/assets/google.png');
     border-radius: 4px;
 }
 
@@ -147,11 +198,4 @@ body {
         
     }
 
-    .download-app {
-        display: none;
-    }
-
-    .group1{
-        border: none;
-    }
 }
