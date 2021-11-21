@@ -1,0 +1,196 @@
+body{
+    display:initial;
+}
+h1{
+    font-size: 20pt;
+}
+
+#topbar{
+    width: 100%;
+    height: 55px;
+    border-bottom: solid 1px #ccc;
+    background-color: rgb(246,246,246);
+    display: flex;
+    justify-content: center;
+}
+
+
+#topbar-content{
+    width: 950px;
+    display: flex;
+    padding: 10px;
+}
+#topbar-logo{
+    width: 350px;
+    display: flex;
+    justify-content: left;
+}
+#topbar i{
+    margin-left: 20px;
+    cursor: pointer;
+}
+#topbar input{
+    margin-left: 20px;
+    width: 200px;
+    border: solid 1px #ccc;
+}
+#topbar-menu{
+    width: 350px;
+    display: flex;
+    justify-content: right;
+}
+
+#topbar-menu a{
+    color: inherit;
+}
+
+#main {    
+    width: 100%;
+	flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#main-content{    
+    width: fit-content;
+    position: relative;
+    margin-right: 10px;
+    padding: 0;
+
+}
+
+
+#stories{
+    border: solid 1px #ccc;
+    background-color: rgb(246,246,246);
+    width: 600px;
+    height: fit-content;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    display: flex;
+
+}
+.card-stories{
+    width: 80px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.class-story-img{
+    width: 70px;
+    height: 70px;
+    border: solid 2px palevioletred;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#feed{
+    background-color: rgb(246,246,246);
+    width: 600px;
+    min-height: 1000px;
+    border-radius: 2px;
+}
+
+
+.card-feed{    
+    border: solid 1px #ccc;
+    margin-bottom: 30px;
+}
+
+.feed-img{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    object-fit: cover;
+}
+
+
+
+.card-feed-header{
+    padding: 10pt;
+    font-weight: bold;
+    display: flex;
+	align-items: center;
+
+}
+.card-feed-header img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.card-feed-footer{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.feed-nickname{
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+#sidebar{
+    width: 350px;
+    position: relative;
+
+}
+
+.sidebar-profile{
+    display: flex;
+    width: 100%;
+	align-items: center;
+}
+.sidebar-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.sidebar-text-1{
+    color: grey;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.sidebar-text-2{
+    color: black;
+    font-weight: bold;
+    font-size: 12pt;
+    cursor: pointer;
+}
+.sidebar-text-3{
+    color: grey;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+#sidebar a {
+    margin-left: 10px;
+    font-size: 10pt;
+    color:cornflowerblue;
+    font-weight: 600;
+    cursor: pointer;
+}
