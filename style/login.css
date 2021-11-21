@@ -68,6 +68,7 @@ body {
     border-radius: 4px;
     background-color: dodgerblue;
     color: white;
+    cursor: pointer;
 }
 .inputs p{  
     font-size: 12px;
@@ -173,11 +174,11 @@ textarea:focus, input:focus, select:focus {
     background-size: cover;
 }
 .app-download:nth-child(1) {
-    background-image: url('/fakegram/assets/apple.png');
+    background-image: url('/assets/apple.png');
     border-radius: 4px;
 }
 .app-download:nth-child(2) {
-    background-image: url('/fakegram/assets/google.png');
+    background-image: url('/assets/google.png');
     border-radius: 4px;
 }
 
